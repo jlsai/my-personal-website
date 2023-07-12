@@ -14,8 +14,8 @@ function setClock() {
     setRotation(hourHand, hoursRatio)
 }
 
-function setRotation(e, rotationRatio) {
-    e.style.setProperty('--rotation', rotationRatio * 360)
+function setRotation(element, rotationRatio) {
+    element.style.setProperty('--rotation', rotationRatio * 360)
 }
 
 setClock()
